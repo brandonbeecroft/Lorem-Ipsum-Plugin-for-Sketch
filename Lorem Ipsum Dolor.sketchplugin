@@ -1,0 +1,24 @@
+// shortcut for text (shift option cmd l)
+
+for (var i=0; i<selection.length(); i++) {
+var layer = selection[i];
+
+// create text color
+var color = [[MSColor alloc] init];
+
+[color setRed:.60];
+[color setGreen:.60];
+[color setBlue:.60];
+[color setAlpha:1];
+
+[layer setTextColor:color];
+	
+// create lorem text
+var loremText = @"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+	
+[layer setName:@"Lorem Ipsum"];
+[layer setStringValue:loremText];
+
+}
+
+
