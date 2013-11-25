@@ -11,7 +11,7 @@ Copy the contents of the ZIP to ~/Library/Application Support/sketch/Plugins (yo
 Usage
 =============================
 
-Select any text in Sketch and hit ( ⇧ ⌥ ⌘ l ) to run the script.
+Select any text in Sketch and hit ( ⇧ ⌥ ⌘ L ) to run the script.
 
 Thanks
 =============================
